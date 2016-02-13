@@ -1,0 +1,67 @@
+ExampleApp.app.dSYM/Contents/Resources/DWARF/ExampleApp [armv7, 0.093380 seconds]:
+    745603AC-C62E-3A7C-B4A5-DB1E37BE4F35 ExampleApp.app.dSYM/Contents/Resources/DWARF/ExampleApp [dSYM_v3, FaultedFromDisk]
+        0x00000000 (  0x4000) __PAGEZERO SEGMENT
+        0x00004000 (0xa20000) __TEXT SEGMENT
+            0x00004000 (  0x4140) MACH_HEADER
+            0x00008140 (0x92b9f8) __TEXT __text
+                0x00008140 (   0x1a4) setupVPCustomClass [FUNC, THUMB, EXT, LENGTH, NameNList, MangledNameNList, Merged, NList, Dwarf]
+                    0x00008140 (    0x2a) main.m:14
+                    0x0000816a (    0x6a) main.m:16
+                    0x000081d4 (    0x1a) main.m:17
+                    0x000081ee (     0xe) main.m:18
+                    0x000081fc (    0x80) main.m:19
+                    0x0000827c (    0x28) main.m:21
+                    0x000082a4 (    0x16) main.m:23
+                    0x000082ba (    0x26) main.m:24
+                    0x000082e0 (     0x4) main.m:25
+                0x000082e4 (    0x8e) main [FUNC, THUMB, EXT, LENGTH, NameNList, MangledNameNList, Merged, NList, Dwarf]
+                    0x000082e4 (    0x12) main.m:27
+                    0x000082f6 (     0x4) main.m:28
+                    0x000082fa (    0x26) main.m:29
+                    0x00008320 (    0x46) main.m:31
+                    0x00008366 (     0x6) main.m:32
+                    0x0000836c (     0x6) main.m:33
+                0x00008374 (    0x16) +[ClosingTheLoopMessageStrings ddLogLevel] [FUNC, OBJC, THUMB, LENGTH, NameNList, MangledNameNList, Merged, NList, Dwarf]
+                    0x00008374 (    0x10) ClosingTheLoopMessageStrings.m:17
+                    0x00008384 (     0x6) ClosingTheLoopMessageStrings.m:17
+                0x0000838c (    0x1a) +[ClosingTheLoopMessageStrings ddSetLogLevel:] [FUNC, OBJC, THUMB, LENGTH, NameNList, MangledNameNList, Merged, NList, Dwarf]
+                    0x0000838c (    0x12) ClosingTheLoopMessageStrings.m:17
+                    0x0000839e (     0x8) ClosingTheLoopMessageStrings.m:17
+                0x000083a8 (   0x150) +[ClosingTheLoopMessageStrings escalationAppropriateStringWithState:] [FUNC, OBJC, THUMB, LENGTH, NameNList, MangledNameNList, Merged, NList, Dwarf]
+                    0x000083a8 (     0xc) ClosingTheLoopMessageStrings.m:19
+                    0x000083b4 (    0x1c) ClosingTheLoopMessageStrings.m:21
+                    0x000083d0 (    0x12) ClosingTheLoopMessageStrings.m:23
+                    0x000083e2 (     0x8) ClosingTheLoopMessageStrings.m:25
+                    0x000083ea (    0x22) ClosingTheLoopMessageStrings.m:27
+                    0x0000840c (    0xda) ClosingTheLoopMessageStrings.m:27
+                    0x000084e6 (     0x6) ClosingTheLoopMessageStrings.m:28
+                    0x000084ec (     0xc) ClosingTheLoopMessageStrings.m:29
+                0x00008994 (    0x6a) __60+[ClosingTheLoopMessageStrings stringFromEscalationActions:]_block_invoke [FUNC, THUMB, LENGTH, NameNList, MangledNameNList, Merged, NList, Dwarf]
+                    0x00008994 (    0x38) ClosingTheLoopMessageStrings.m:80
+                    0x000089cc (     0x8) ClosingTheLoopMessageStrings.m:80
+                    0x000089d4 (    0x1e) ClosingTheLoopMessageStrings.m:81
+                    0x000089f2 (     0xc) ClosingTheLoopMessageStrings.m:82
+                0x00008a00 (    0x2a) __copy_helper_block_ [FUNC, THUMB, LENGTH, NameNList, MangledNameNList, Merged, NList, Dwarf]
+                    0x00008a00 (    0x10) ClosingTheLoopMessageStrings.m:0
+                    0x00008a10 (    0x1a) ClosingTheLoopMessageStrings.m:0
+                0x00874d90 (    0x88) internal_callback_iterator(int, __siginfo*, __darwin_ucontext*, void*) [FUNC, THUMB, NameNList, MangledNameNList, NList]
+            0x00933b38 (  0x2830) __TEXT __picsymbolstub4
+            0x00936368 (  0x1e48) __TEXT __stub_helper
+                0x00936368 (  0x1e48)  stub helpers [FUNC, PEXT, NameNList, MangledNameNList, NList]
+        0x00b34000 (0x58c000) __LINKEDIT SEGMENT
+        0x010c0000 (0x1731000) __DWARF SEGMENT
+            0x010c0000 (   0xa85) __DWARF __debug_abbrev
+            0x010c0a85 ( 0x1f460) __DWARF __debug_aranges
+            0x010dfee5 ( 0x718f0) __DWARF __debug_frame
+            0x011517d5 (0xca29d3) __DWARF __debug_info
+            0x01df41a8 (   0x7b8) __DWARF __debug_inlined
+            0x01df4960 (0x2b212c) __DWARF __debug_line
+            0x020a6a8c (  0xd8cb) __DWARF __debug_loc
+            0x020b4357 (0x13e8b8) __DWARF __debug_pubnames
+            0x021f2c0f (0x1e2e29) __DWARF __debug_pubtypes
+            0x023d5a38 (  0x5e48) __DWARF __debug_ranges
+            0x023db880 (0x1ca183) __DWARF __debug_str
+            0x025a5a03 (0x10ca30) __DWARF __apple_names
+            0x026b2433 (0x120cd7) __DWARF __apple_types
+            0x027d310a (    0x24) __DWARF __apple_namespac
+            0x027d312e ( 0x1cf24) __DWARF __apple_objc

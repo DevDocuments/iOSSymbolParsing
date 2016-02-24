@@ -1,4 +1,5 @@
 # info from http://docs.haskellstack.org/en/stable/travis_ci/
+# doesn't work yet!
 
 language: haskell
 sudo: false

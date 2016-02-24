@@ -2,12 +2,10 @@
 
 language: haskell
 sudo: false
-ghc: 7.10
+ghc: 7.10.
 # Caching so the next build will be fast too.
 cache:
   directories:
-  - $HOME/.ghc
-  - $HOME/.cabal
   - $HOME/.stack
   
   

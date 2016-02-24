@@ -6,6 +6,8 @@ sudo: false
 # Caching so the next build will be fast too.
 cache:
   directories:
+  - $HOME/.ghc
+  - $HOME/.cabal
   - $HOME/.stack
   
   
@@ -15,15 +17,15 @@ before_install:
 - export PATH=$HOME/.local/bin:$PATH
 - travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'
 # ghc
-  - export PATH=/opt/ghc/$GHCVER/bin:$PATH
+- export PATH=/opt/ghc/$GHCVER/bin:$PATH
 
 script:
   - stack --no-terminal --skip-ghc-check test
-  
 
-addons:
-  apt:
-    sources:
-    - hvr-ghc
-    packages:
-    - ghc-7.10.2
+#addons:
+#  apt:		
+#    sources:		
+#    - hvr-ghc		
+#    packages:		
+#    - ghc-7.10.2  
+
